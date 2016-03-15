@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2156AA01C6E417700E84F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2156A9F1C6E417700E84F7F /* AppDelegate.swift */; };
-		E2156AA21C6E417700E84F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2156AA11C6E417700E84F7F /* ViewController.swift */; };
+		D40CDEE01C90C20200CF4C2C /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEDA1C90C20200CF4C2C /* DBManager.m */; };
+		D40CDEE11C90C20200CF4C2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEDB1C90C20200CF4C2C /* AppDelegate.m */; };
+		D40CDEE21C90C20200CF4C2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEDD1C90C20200CF4C2C /* ViewController.m */; };
+		D40CDEE31C90C20200CF4C2C /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEDF1C90C20200CF4C2C /* EditInfoViewController.m */; };
+		D40CDEE51C90C22D00CF4C2C /* sampledb.sql in Resources */ = {isa = PBXBuildFile; fileRef = D40CDEE41C90C22D00CF4C2C /* sampledb.sql */; };
+		D40CDEE81C90DB9900CF4C2C /* RecentOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEE71C90DB9900CF4C2C /* RecentOrders.m */; };
+		D40CDEEB1C90E9C200CF4C2C /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = D40CDEEA1C90E9C200CF4C2C /* Order.m */; };
+		D44A17F61C920CB00077DD35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44A17F51C920CB00077DD35 /* Foundation.framework */; };
+		D44A17F81C920CC80077DD35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44A17F71C920CC80077DD35 /* UIKit.framework */; };
+		D44A17FA1C920CD30077DD35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44A17F91C920CD30077DD35 /* CoreGraphics.framework */; };
+		D44A17FC1C920CE40077DD35 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D44A17FB1C920CE40077DD35 /* libsqlite3.tbd */; };
+		D44A17FF1C9210780077DD35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D44A17FE1C9210780077DD35 /* main.m */; };
+		D47C34561C90B468005C4810 /* buffsampledb.sql in Resources */ = {isa = PBXBuildFile; fileRef = D47C34551C90B468005C4810 /* buffsampledb.sql */; };
 		E2156AA51C6E417700E84F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2156AA31C6E417700E84F7F /* Main.storyboard */; };
 		E2156AA71C6E417700E84F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2156AA61C6E417700E84F7F /* Assets.xcassets */; };
 		E2156AAA1C6E417700E84F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2156AA81C6E417700E84F7F /* LaunchScreen.storyboard */; };
@@ -34,9 +45,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D40CDED81C90C20200CF4C2C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/AppDelegate.h; sourceTree = "<group>"; };
+		D40CDED91C90C20200CF4C2C /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/DBManager.h; sourceTree = "<group>"; };
+		D40CDEDA1C90C20200CF4C2C /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/DBManager.m; sourceTree = "<group>"; };
+		D40CDEDB1C90C20200CF4C2C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/AppDelegate.m; sourceTree = "<group>"; };
+		D40CDEDC1C90C20200CF4C2C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/ViewController.h; sourceTree = "<group>"; };
+		D40CDEDD1C90C20200CF4C2C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/ViewController.m; sourceTree = "<group>"; };
+		D40CDEDE1C90C20200CF4C2C /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditInfoViewController.h; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/EditInfoViewController.h; sourceTree = "<group>"; };
+		D40CDEDF1C90C20200CF4C2C /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditInfoViewController.m; path = ../../../Desktop/SQLite3DBSample/SQLite3DBSample/EditInfoViewController.m; sourceTree = "<group>"; };
+		D40CDEE41C90C22D00CF4C2C /* sampledb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = sampledb.sql; path = ../../sampledb.sql; sourceTree = "<group>"; };
+		D40CDEE61C90DB9900CF4C2C /* RecentOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentOrders.h; sourceTree = "<group>"; };
+		D40CDEE71C90DB9900CF4C2C /* RecentOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentOrders.m; sourceTree = "<group>"; };
+		D40CDEE91C90E9C200CF4C2C /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		D40CDEEA1C90E9C200CF4C2C /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		D44A17F51C920CB00077DD35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D44A17F71C920CC80077DD35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D44A17F91C920CD30077DD35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D44A17FB1C920CE40077DD35 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D44A17FE1C9210780077DD35 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D47C34551C90B468005C4810 /* buffsampledb.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = buffsampledb.sql; path = ../../buffsampledb.sql; sourceTree = "<group>"; };
 		E2156A9C1C6E417700E84F7F /* BuffBurgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuffBurgers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2156A9F1C6E417700E84F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2156AA11C6E417700E84F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2156AA41C6E417700E84F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2156AA61C6E417700E84F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2156AA91C6E417700E84F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +82,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44A17FC1C920CE40077DD35 /* libsqlite3.tbd in Frameworks */,
+				D44A17FA1C920CD30077DD35 /* CoreGraphics.framework in Frameworks */,
+				D44A17F81C920CC80077DD35 /* UIKit.framework in Frameworks */,
+				D44A17F61C920CB00077DD35 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D44A17FD1C9210300077DD35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D44A17FE1C9210780077DD35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E2156A931C6E417700E84F7F = {
 			isa = PBXGroup;
 			children = (
+				D44A17FB1C920CE40077DD35 /* libsqlite3.tbd */,
+				D44A17F91C920CD30077DD35 /* CoreGraphics.framework */,
+				D44A17F71C920CC80077DD35 /* UIKit.framework */,
+				D44A17F51C920CB00077DD35 /* Foundation.framework */,
+				D47C34551C90B468005C4810 /* buffsampledb.sql */,
+				D40CDEE41C90C22D00CF4C2C /* sampledb.sql */,
 				E2156A9E1C6E417700E84F7F /* BuffBurgers */,
 				E2156AB31C6E417700E84F7F /* BuffBurgersTests */,
 				E2156ABE1C6E417700E84F7F /* BuffBurgersUITests */,
@@ -97,12 +143,23 @@
 		E2156A9E1C6E417700E84F7F /* BuffBurgers */ = {
 			isa = PBXGroup;
 			children = (
-				E2156A9F1C6E417700E84F7F /* AppDelegate.swift */,
-				E2156AA11C6E417700E84F7F /* ViewController.swift */,
 				E2156AA31C6E417700E84F7F /* Main.storyboard */,
+				D40CDEE91C90E9C200CF4C2C /* Order.h */,
+				D40CDEEA1C90E9C200CF4C2C /* Order.m */,
+				D40CDEE61C90DB9900CF4C2C /* RecentOrders.h */,
+				D40CDEE71C90DB9900CF4C2C /* RecentOrders.m */,
+				D40CDED81C90C20200CF4C2C /* AppDelegate.h */,
+				D40CDED91C90C20200CF4C2C /* DBManager.h */,
+				D40CDEDA1C90C20200CF4C2C /* DBManager.m */,
+				D40CDEDB1C90C20200CF4C2C /* AppDelegate.m */,
+				D40CDEDC1C90C20200CF4C2C /* ViewController.h */,
+				D40CDEDD1C90C20200CF4C2C /* ViewController.m */,
+				D40CDEDE1C90C20200CF4C2C /* EditInfoViewController.h */,
+				D40CDEDF1C90C20200CF4C2C /* EditInfoViewController.m */,
 				E2156AA61C6E417700E84F7F /* Assets.xcassets */,
 				E2156AA81C6E417700E84F7F /* LaunchScreen.storyboard */,
 				E2156AAB1C6E417700E84F7F /* Info.plist */,
+				D44A17FD1C9210300077DD35 /* Supporting Files */,
 			);
 			path = BuffBurgers;
 			sourceTree = "<group>";
@@ -232,7 +289,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40CDEE51C90C22D00CF4C2C /* sampledb.sql in Resources */,
 				E2156AAA1C6E417700E84F7F /* LaunchScreen.storyboard in Resources */,
+				D47C34561C90B468005C4810 /* buffsampledb.sql in Resources */,
 				E2156AA71C6E417700E84F7F /* Assets.xcassets in Resources */,
 				E2156AA51C6E417700E84F7F /* Main.storyboard in Resources */,
 			);
@@ -259,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2156AA21C6E417700E84F7F /* ViewController.swift in Sources */,
-				E2156AA01C6E417700E84F7F /* AppDelegate.swift in Sources */,
+				D40CDEEB1C90E9C200CF4C2C /* Order.m in Sources */,
+				D40CDEE31C90C20200CF4C2C /* EditInfoViewController.m in Sources */,
+				D40CDEE21C90C20200CF4C2C /* ViewController.m in Sources */,
+				D40CDEE11C90C20200CF4C2C /* AppDelegate.m in Sources */,
+				D40CDEE81C90DB9900CF4C2C /* RecentOrders.m in Sources */,
+				D44A17FF1C9210780077DD35 /* main.m in Sources */,
+				D40CDEE01C90C20200CF4C2C /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +467,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BuffBurgers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuffBurgers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,9 +480,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BuffBurgers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuffBurgers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -487,6 +555,7 @@
 				E2156AC61C6E417700E84F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2156AC71C6E417700E84F7F /* Build configuration list for PBXNativeTarget "BuffBurgersTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +564,7 @@
 				E2156AC91C6E417700E84F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2156ACA1C6E417700E84F7F /* Build configuration list for PBXNativeTarget "BuffBurgersUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +573,7 @@
 				E2156ACC1C6E417700E84F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
